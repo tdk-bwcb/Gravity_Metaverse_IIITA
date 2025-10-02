@@ -1,6 +1,6 @@
-from ursina import *
+from ursina import Ursina, Entity, Vec3, Vec2, DirectionalLight, EditorCamera, color, lerp, distance, held_keys, time
 from ursina.prefabs.first_person_controller import FirstPersonController
-from ursina import time
+
 
 app = Ursina()
 
